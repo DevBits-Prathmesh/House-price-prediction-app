@@ -12,48 +12,47 @@ This is a Streamlit web app that predicts the price of a house based on user inp
 
 🏆 Deployment
 
-This app is deployed using Streamlit Cloud.
+  👉 This app is deployed using Streamlit Cloud.
 🛠️ Installation (to run it locally)
 
 To Clone this repository
 
-git clone https://github.com/DevBits-Prathmesh/House-price-prediction-app.git
-cd House-price-prediction-app
+  git clone https://github.com/DevBits-Prathmesh/House-price-prediction-app.git
+  cd House-price-prediction-app
 
 
-Install dependencies
+🧠Install dependencies
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 Run the app using 
 
-streamlit run app.py
-
-
+  streamlit run app.py
+  
 Open in browser at
 
 http://localhost:8501
 
 📂 Project Structure
-├── app.py              # Streamlit app
-├── read_house.pkl      # Trained ML model
-├── requirements.txt    # Dependencies(requirements for this app)
-└── README.md           # Project documentation
+  ├── app.py              # Streamlit app
+  ├── read_house.pkl      # Trained ML model
+  ├── requirements.txt    # Dependencies(requirements for this app)
+  └── README.md           # Project documentation
 
 📊 Example Inputs
 
-Size: 1200 sqft
+  Size: 1200 sqft
 
-Rooms: 3
+  Rooms: 3
 
-Bathrooms: 2
+  Bathrooms: 2
 
-Garage Capacity: 1
+  Garage Capacity: 1
 
-Garden: Yes
+  Garden: Yes
 
-Age of House: 5 years
+  Age of House: 5 years
 
 ✅ The app will return the predicted house price instantly.
 
