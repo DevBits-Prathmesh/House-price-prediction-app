@@ -56,10 +56,11 @@ if submit:
         st.success('## Prediction Result')
         col1, col2, col3 = st.columns(3)
         with col2:
-            st.metric('Predicted House Price', f'₹{pred:,.0f}')
-        with col2:
             st.write("🏡 Based on your preferences!")
+        with col2:
+            st.metric('Predicted House Price', f'₹{pred:,.0f}')
     except Exception as e:
         st.error(f'Prediction failed: {str(e)}')
+
 
 
