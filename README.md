@@ -1,4 +1,4 @@
-WELCOME MY FRIEND !!
+
 **This is House Price Prediction App**
 This is a Streamlit web app that predicts the price of a house based on user inputs like size, number of rooms, bathrooms, garage capacity, garden preference, and age of the house.
 
