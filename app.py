@@ -19,7 +19,7 @@ def load_model(model_path):
 
 # Load model with progress
 with st.spinner('Loading prediction model...'):
-    house_model = load_model(r"X:\Study\streamlit_apps\diabeties-app\read_house.pkl")
+     house_model = load_model("read_house.pkl")
 # Check if model loaded successfully
 if house_model is None:
     st.error("Failed to load the model. Cannot continue.")
@@ -61,3 +61,4 @@ if submit:
             st.write("🏡 Based on your preferences!")
     except Exception as e:
         st.error(f'Prediction failed: {str(e)}')
+
