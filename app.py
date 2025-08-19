@@ -55,10 +55,11 @@ if submit:
             pred = house_model.predict(input_data)[0]
         st.success('## Prediction Result')
         col1, col2, col3 = st.columns(3)
-        with col1:
+        with col2:
             st.metric('Predicted House Price', f'₹{pred:,.0f}')
         with col2:
             st.write("🏡 Based on your preferences!")
     except Exception as e:
         st.error(f'Prediction failed: {str(e)}')
+
 
